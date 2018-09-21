@@ -1,7 +1,3 @@
-from math import *
-degrees(atan(1.18))
-49.720136931043555
-
 def arctan(y,x):
   arg = y/x
   if(x > 0):
