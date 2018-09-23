@@ -2,6 +2,7 @@ from rotation import *
 from getangle import *
 from transpose import *
 from multiply import *
+from isOrthogonal import *
 
 def negative(M):
   N = []
@@ -55,8 +56,11 @@ def inverse(M):
 
   return(MI)
 
-m = [[1, 0, 0, 3], [0, 0.8660254037844387, -0.49999999999999994, 3 ], [0, 0.49999999999999994, 0.8660254037844387,3],[0,0,0,1]]
 
-[print(x) for x in inverse(m)]
+
+
+
+
+
 
 
